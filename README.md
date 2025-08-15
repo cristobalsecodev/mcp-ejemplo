@@ -1,6 +1,6 @@
 # MCP Ejemplo — Servidor (TypeScript)
 
-Este proyecto implementa un servidor [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) sencillo en `main.ts` que expone una herramienta `fetch-weather` para obtener el tiempo de una ciudad usando la API pública de Open‑Meteo.
+Este proyecto implementa un servidor [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) sencillo en `main.ts` que trae una herramienta `fetch-weather` para obtener el tiempo de una ciudad usando la API pública de Open‑Meteo. (No se requiere API Token).
 
 ## Requisitos
 
@@ -23,7 +23,7 @@ pnpm install
 
 ## Uso local con un cliente MCP
 
-Para probar la herramienta de forma interactiva y local puedes usar el siguiente comando para arrancar elInspector de MCP:
+Para probar la herramienta de forma interactiva y local puedes usar el siguiente comando para arrancar el inspector de MCP:
 
 ```bash
 npx -y @modelcontextprotocol/inspector npx -y tsx main.ts
